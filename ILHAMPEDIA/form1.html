@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengertian CPU</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="script.js" defer></script> <!-- Menggunakan defer agar JavaScript berjalan setelah halaman dimuat -->
+</head>
+<body>
+  <table class="header-table">
+    <tr>
+      <td class="logo">
+        <a href="index.html">
+          <img src="assets/ilhampedia.png" alt="Logo Enter Komputer">
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <header class="header"> 
+    <div class="menu-ngoding"> 
+      <table class="navtable">
+        <tr>
+          <td><a href="page2.html" class="menu-link">CPU</a></td>
+          <td><a href="page3.html" class="menu-link">RAM</a></td>
+          <td><a href="page4.html" class="menu-link">MOTHERBOARD</a></td>
+          <td><a href="page5.html" class="menu-link">GPU</a></td>
+          <td><a href="page6.html" class="menu-link">PSU</a></td>
+        </tr>
+      </table>  
+    </div> 
+  </header>
+
+  <br>
+  <table class="formtable">
+    <tr>
+      <td><a href="form1.html" class="formlink">FORM PEMBELIAN KOMPUTER DISINI!!</a></td>
+    </tr>
+  </table>  
+
+  <h1><p align=center>FORM PEMBELIAN KOMPUTER</p></h1>
+
+  <!-- Tempat untuk menampilkan nama dan alamat yang diinput -->
+  <div id="output"></div>
+
+  <form action="info.html" method="post">
+    Pilih prosesor :
+    <br>
+    <select name="prosesor">
+      <option value="intel1">Prosesor Intel® Core™ Ultra1</option>
+      <option value="intel2">Prosesor Intel® Core™ (Seri 1)2</option>
+      <option value="intel3">Prosesor Intel® Core™ (generasi ke-14)3</option>
+      <option value="intel4">Prosesor Intel® Core™ (generasi ke-14)4</option>
+    </select>
+    <br><br>
+
+    Pilih VGA :
+    <br>
+    <select name="VGA">
+      <option value="VGA1">GeForce RTX 4090</option>
+      <option value="VGA2">Radeon RX 7900 XTX</option>
+      <option value="VGA3">ROG Strix RTX 4080</option>
+      <option value="VGA4">Gaming X Trio RTX 4070</option>
+    </select>
+    <br><br>
+
+    Pilih RAM :
+    <br>
+    <select name="RAM">
+      <option value="RAM1">Vengeance DDR4</option>
+      <option value="RAM2">Ripjaws V DDR4</option>
+      <option value="RAM3">HyperX Fury DDR4</option>
+      <option value="RAM4">Ballistix DDR4</option>
+    </select>
+    <br><br>
+
+    Metode Pembayaran :
+    <br>
+    <input type="radio" id="COD" name="METODEPEMBAYARAN" value="COD">
+    <label for="COD">COD</label>
+    <input type="radio" id="TRANSFER" name="METODEPEMBAYARAN" value="TRANSFER">
+    <label for="TRANSFER">TRANSFER</label>
+    <br><br>
+
+    <input type="submit" value="KIRIM">
+    <input type="reset" value="RESET">
+  </form>
+</body>
+</html>
